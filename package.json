@@ -1,0 +1,22 @@
+{
+  "name": "guest_data",
+  "version": "1.0.0",
+  "description": "Guest data",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "lakshitha",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "yargs": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
